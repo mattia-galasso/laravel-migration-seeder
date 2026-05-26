@@ -4,5 +4,55 @@
 // Variables
 @import 'variables';
 
+// Fix dell'Hover delle row della table
+$table-hover-bg: transparent;
+
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
+
+/* GENERAL RULES */
+body {
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.row-item {
+    height: 4rem;
+}
+
+.departure-time{
+    font-size: 1.1rem;
+}
+
+.delay-time {
+    line-height: .5rem;
+    font-size: .7rem;
+}
+
+.status-badge {
+    font-size: .7rem;
+    padding: .4rem 1rem;
+    background-color: red;
+    border-radius: .3rem;
+    border: .1rem green solid;
+    letter-spacing: .2rem;
+}
+
+.status-green {
+    background-color: #0d2b1a;
+    color: #2ecc71;
+    border: 1px solid #1a4d2e;
+}
+
+.status-delay {
+    background: #2b1e00;
+    color: #f5a623;
+    border: 1px solid #4d3500;
+}
+
+.status-cancel {
+    background: #2b0d0d;
+    color: #e74c3c;
+    border: 1px solid #4d1a1a;
+}
